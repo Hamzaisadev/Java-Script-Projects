@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #870000, #190a05);
+    padding: 10px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #008787;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+
+.todo-app h2{
+    color: #870000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.todo-app h2 img{
+    width: 40px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background: #ff5945;
+    color: #fff;
+    padding: 16px 50px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    border: none;
+    outline: none;
+    background: black;
+    color: #fff;
+    transition: 1s linear ease-in;
+    padding: 16px 50px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    color: #870000;
+    font-size: 22px;
+    font-weight: 800;
+    
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(/Java-Script-Projects/Project-2-To_Do_List/images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    
+    
+
+
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(/Java-Script-Projects/Project-2-To_Do_List/images/checked.png);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    font-weight: 300;
+   border-radius: 50%;
+    text-align: center;
+}
+
+ul li span:hover{
+    background: #ff5945;
+    color: #fff;
+    transition: 1s linear ease-in;
+}
