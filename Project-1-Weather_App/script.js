@@ -22,26 +22,26 @@ async function checkWeather(city) {
 
 
     if(data.weather[0].main == "Clouds"){
-        weatherIcon.src = "/Project-1-Weather_App/images/clouds.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/clouds.png"
     }
     else if(data.weather[0].main == "Clear"){
-        weatherIcon.src = "/Project-1-Weather_App/images/clear.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/clear.png"
     }
     else if(data.weather[0].main == "Rain"){
-        weatherIcon.src = "/Project-1-Weather_App/images/rain.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/rain.png"
     }
     else if(data.weather[0].main == "Drizzle"){
-        weatherIcon.src = "/Project-1-Weather_App/images/drizzle.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/drizzle.png"
     }
     else if(data.weather[0].main == "Mist"){
-        weatherIcon.src = "/Project-1-Weather_App/images/Mist.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/Mist.png"
     }
     else if(data.weather[0].main == "Smoke"){
-        weatherIcon.src = "/Project-1-Weather_App/images/Mist.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/Mist.png"
     }
     
     else if(data.weather[0].main == "Snow"){
-        weatherIcon.src = "/Project-1-Weather_App/images/snow.png"
+        weatherIcon.src = "/Java-Script-Projects/Project-1-Weather_App/images/snow.png"
     }
     
 
