@@ -47,4 +47,4 @@ This is a basic to-do list app, and you can extend its functionality by adding f
 
 
 
-**Try it out:** [Visit the To-Do List App]([https://your-app-link.com](https://hamzaisadev.github.io/Java-Script-Projects/Project-2-To_Do_List/))
+**Try it out:** [Visit the To-Do List App]([https://your-app-link.com](https://hamzaisadev.github.io/Java-Script-Projects/Project-2-To_Do_List/)
