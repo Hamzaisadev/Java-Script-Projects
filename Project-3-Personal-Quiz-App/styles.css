@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "poppins", sans-serif;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #260C1A;
+}
+
+
+.app{
+    background-color: #EDBFC6;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.app h1{
+    color: #432E36;
+    font-size: 35px;
+    border-bottom: 1px solid #260C1A;
+    padding-bottom: 25px;
+
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    color: #432E36;
+    font-weight: 700;
+}
+
+.btn{
+    background: #EDBFC6;
+    color: #260C1A;
+    font-weight: 900;
+    width: 100%;
+    border: 2px solid #432E36;
+    padding: 10px ;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background: #260C1A;
+    color: #EDBFC6;
+}
+
+#next-btn{
+    background: #260C1A;
+    color: #EDBFC6;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
