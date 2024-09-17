@@ -15,7 +15,7 @@ function increaseScore() {
 }
 
 function randomNumberBubble(){
-    return randomNumber = Math.floor(Math.random()*10)
+    return randomNumber = Math.floor(Math.random()*20)
 }
 
 function makebubble() {
@@ -28,7 +28,7 @@ function makebubble() {
 }
 
 function getNewhit() {
-    randomHit = Math.floor(Math.random()*10)
+    randomHit = Math.floor(Math.random()*20)
     hitElem.textContent = randomHit
 }
 
