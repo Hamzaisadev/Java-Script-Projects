@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="sub-container">
+                <div class="total-amount-container">
+                    <h3>budget</h3>
+                    <p id="budget-error" class="hide error">Value cannot be empty or negative </p>
+                    <input type="number" id="total-amount" placeholder="Enter total amount">
+
+                    <button class="submit" id="budget-add-btn">Set budget</button>
+                </div>
+
+                <div class="user-amount-container">
+                    <h3>Expenses</h3>
+                    <p class="hide error" id="product-title-error">
+                        Values cannot be empty
+                    </p>
+                    <input type="text" class="productTitle" id="Product-title" placeholder="Enter Title of Product">
+
+                    <input type="number" placeholder="Enter Cost of The Product" id="user-amount" class="productcost">
+                    <button  class="submit" id="check-amount">Check Amount</button>
+                </div>
+            </div>
+
+            <div class="output-container flex-space">
+                <div>
+                    <p>Total Budget</p>
+                    <span id="amount">0</span>
+                </div>
+                <div>
+                    <p>Expanses</p>
+                    <span id="expanditure-value">0</span>
+                </div>
+                <div>
+                    <p>Balance</p>
+                    <span id="balance-amount">0</span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="list">
+            <h3>Expanse List</h3>
+                <div class="list-container" id="list">
+                    
+                </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
