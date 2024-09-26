@@ -41,10 +41,11 @@ body{
     padding: 10px 15px;
     box-sizing: border-box;
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     font-size:19px;
     font-weight: 700;
+    
 }
 
 .kanbanDropzone{
