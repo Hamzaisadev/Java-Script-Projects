@@ -1,4 +1,4 @@
-import kanbanAPI from "/Project-7-kanBan-Board/api/kanbanAPI.js"
+import kanbanAPI from "/Java-Script-Projects/Project-7-kanBan-Board/api/kanbanAPI.js"
 import Item from "./item.js";
 import Dropzone from "./dropzone.js";
 
