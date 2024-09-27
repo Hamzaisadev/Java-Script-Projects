@@ -1,5 +1,5 @@
-import kanbanAPI from "../api/kanbanAPI.js"
-import Column from "./column.js"
+import kanbanAPI from "/Java-Script-Projects/api/kanbanAPI.js"
+import Column from "/Java-Script-Projects/column.js"
 
 export default class Dropzone{
     static createdropzone(){
