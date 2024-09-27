@@ -1,6 +1,6 @@
-import kanbanAPI from "../Project-7-kanBan-Board/api/kanbanAPI.js"
-import Item from "../Project-7-kanBan-Board/view//item.js";
-import Dropzone from "../Project-7-kanBan-Board/view//dropzone.js";
+import kanbanAPI from "/Java-Script-Projects/Project-7-kanBan-Board/api/kanbanAPI.js"
+import Item from "/Java-Script-Projects/Project-7-kanBan-Board/view/item.js";
+import Dropzone from "/Java-Script-Projects/Project-7-kanBan-Board/view/dropzone.js";
 
 
 export default class Column{
