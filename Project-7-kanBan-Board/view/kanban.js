@@ -1,4 +1,4 @@
-import Column from "/Java-Script-Projects/column.js";
+import Column from "../Project-7-kanBan-Board/column.js";
 
 export default class Kanban{
     constructor(root){
