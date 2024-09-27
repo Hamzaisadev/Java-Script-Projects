@@ -1,4 +1,4 @@
-import Kanban from "../view/kanban.js";
+import Kanban from "../Project-7-kanBan-Board/view/kanban.js";
 
 
 
