@@ -15,7 +15,7 @@ This repository contains a collection of small JavaScript projects. Each project
 5. [Project 5: Image Search App](https://github.com/HamzaIsaDev/Project-5-Image-Search-app) - An app that allows you to search for images using a keyword.
 	* [Live Demo](https://hamzaisadev.github.io/Java-Script-Projects/Project-5-Image-Search-app)
 6. [Project 6: Finance Tracker](https://github.com/HamzaIsaDev/Project-6-Finance-Tracker) - An app that helps you track your expenses and stay on top of your finances.
-	* [Live Demo](https://hamzaisadev.github.io/Java-Script-Projects/Project-6-Finance&Tracker)
+	* [Live Demo](hamzaisadev.github.io/Java-Script-Projects/Project-6-Finance-Tracker)
 7. [Project 7: KanBan Board](https://github.com/HamzaIsaDev/Project-7-kanBan-Board) - A KanBan board app that helps you manage your tasks and projects.
 	* [Live Demo](https://hamzaisadev.github.io/Java-Script-Projects/Project-7-kanBan-Board)
 
