@@ -15,55 +15,55 @@ let secondCard = false;
 const items = [
   {
     name: "angular",
-    image: "../Assets/angular.svg",
+    image: "./Assets/angular.svg",
   },
   {
     name: "bootstrap",
-    image: "../assets/bootstrap.svg",
+    image: "./Assets/bootstrap.svg",
   },
   {
     name: "css",
-    image: "../assets/css.svg",
+    image: "./Assets/css.svg",
   },
   {
     name: "git",
-    image: "../assets/git.svg",
+    image: "./Assets/git.svg",
   },
   {
     name: "html",
-    image: "../assets/html.svg",
+    image: "./Assets/html.svg",
   },
   {
     name: "java",
-    image: "../assets/java.svg",
+    image: "./Assets/java.svg",
   },
   {
     name: "javascript",
-    image: "./assets/javascript.svg",
+    image: "./Assets/javascript.svg",
   },
   {
     name: "materialUi",
-    image: "../assets/materialUi.svg",
+    image: "./Assets/materialUi.svg",
   },
   {
     name: "mongodb",
-    image: "./assets/mongodb.svg",
+    image: "./Assets/mongodb.svg",
   },
   {
     name: "python",
-    image: "../assets/python.svg",
+    image: "./Assets/python.svg",
   },
   {
     name: "react",
-    image: "../assets/react.svg",
+    image: "./Assets/react.svg",
   },
   {
     name: "sass",
-    image: "../assets/sass.svg",
+    image: "./Assets/sass.svg",
   },
   {
     name: "tailwind",
-    image: "../assets/tailwind.svg",
+    image: "./Assets/tailwind.svg",
   },
 ];
 
