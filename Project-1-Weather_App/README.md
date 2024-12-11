@@ -12,7 +12,7 @@
 
 **Example:**
 
-![Weather App Screenshot](https://your-image-url.com/weather-app-screenshot.png)
+![Weather App Screenshot](./images/)
 
 Getting Started (Local Development):
 
