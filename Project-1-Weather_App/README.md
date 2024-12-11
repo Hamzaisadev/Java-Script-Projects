@@ -12,7 +12,7 @@
 
 **Example:**
 
-![Weather App Screenshot](./images/)
+![Weather App Screenshot](./images/Opera Snapshot_2024-12-11_202134_hamzaisadev.github.io.png)
 
 Getting Started (Local Development):
 
