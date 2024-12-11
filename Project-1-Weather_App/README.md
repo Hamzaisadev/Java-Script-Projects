@@ -4,13 +4,11 @@
 
 ### **Features:**
 
-* **Accurate and Up-to-Date Weather:** Get the most current weather data, including temperature, humidity, wind speed, and precipitation.
-* **Detailed Forecasts:** Access multi-day forecasts with hourly and daily predictions.
-* **Customizable Units:** Choose between Celsius and Fahrenheit for temperature measurements.
-* **User-Friendly Interface:** Enjoy a clean and intuitive design for easy navigation.
-* **Responsive Design:** Optimized for various screen sizes and devices.
-
-
+- **Accurate and Up-to-Date Weather:** Get the most current weather data, including temperature, humidity, wind speed, and precipitation.
+- **Detailed Forecasts:** Access multi-day forecasts with hourly and daily predictions.
+- **Customizable Units:** Choose between Celsius and Fahrenheit for temperature measurements.
+- **User-Friendly Interface:** Enjoy a clean and intuitive design for easy navigation.
+- **Responsive Design:** Optimized for various screen sizes and devices.
 
 **Example:**
 
@@ -25,10 +23,10 @@ Replace placeholder API key: In script.js, update the apiKey variable with your 
 
 ### **Technologies Used:**
 
-* **HTML:** The foundation of the app's structure.
-* **CSS:** Styling and layout of the app's elements.
-* **JavaScript:** Dynamic functionality, including fetching weather data from an API and updating the UI.
-* **OpenWeatherMap API:** A reliable source for weather data.
+- **HTML:** The foundation of the app's structure.
+- **CSS:** Styling and layout of the app's elements.
+- **JavaScript:** Dynamic functionality, including fetching weather data from an API and updating the UI.
+- **OpenWeatherMap API:** A reliable source for weather data.
 
 ### **Usage:**
 
