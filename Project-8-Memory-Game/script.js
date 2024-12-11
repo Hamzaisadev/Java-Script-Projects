@@ -15,27 +15,27 @@ let secondCard = false;
 const items = [
   {
     name: "angular",
-    image: "./Assets/angular.svg",
+    image: "../Assets/angular.svg",
   },
   {
     name: "bootstrap",
-    image: "./assets/bootstrap.svg",
+    image: "../assets/bootstrap.svg",
   },
   {
     name: "css",
-    image: "./assets/css.svg",
+    image: "../assets/css.svg",
   },
   {
     name: "git",
-    image: "./assets/git.svg",
+    image: "../assets/git.svg",
   },
   {
     name: "html",
-    image: "./assets/html.svg",
+    image: "../assets/html.svg",
   },
   {
     name: "java",
-    image: "./assets/java.svg",
+    image: "../assets/java.svg",
   },
   {
     name: "javascript",
@@ -43,7 +43,7 @@ const items = [
   },
   {
     name: "materialUi",
-    image: "./assets/materialUi.svg",
+    image: "../assets/materialUi.svg",
   },
   {
     name: "mongodb",
@@ -51,19 +51,19 @@ const items = [
   },
   {
     name: "python",
-    image: "./assets/python.svg",
+    image: "../assets/python.svg",
   },
   {
     name: "react",
-    image: "./assets/react.svg",
+    image: "../assets/react.svg",
   },
   {
     name: "sass",
-    image: "./assets/sass.svg",
+    image: "../assets/sass.svg",
   },
   {
     name: "tailwind",
-    image: "./assets/tailwind.svg",
+    image: "../assets/tailwind.svg",
   },
 ];
 
