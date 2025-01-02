@@ -139,3 +139,4 @@ If you have any questions or suggestions, feel free to reach out to me:
 - **LinkedIn:** [Hamzaisadev](https://www.linkedin.com/in/hamzaisadev/)
 
 Thank you for visiting my repository, and happy coding!
+ bye
