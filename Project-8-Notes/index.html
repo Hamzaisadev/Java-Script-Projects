@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- META TAGS -->
+    <title>Notely - Note Taking App</title>
+    <meta name="title" content="Notely - Your Digital Notebook" />
+    <meta
+      name="description"
+      content="Take notes effortlessly with Notely. Organize your thoughts, ideas, and tasks all in one place. Fast, simple, and accessible anytime, anywhere."
+    />
+    <meta
+      name="keywords"
+      content="Notely, note-taking app, digital notes, organize notes, productivity, task management, jot down ideas, quick notes"
+    />
+    <meta name="author" content="Hamza" />
+    <meta property="og:title" content="Notely - Your Digital Notebook" />
+    <meta
+      property="og:description"
+      content="Simplify your life with Notely. Keep your notes organized and accessible on all your devices."
+    />
+
+    <!-- FAV ICON -->
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- THEME JS -->
+    <script type="module" src="./src/js/theme.js"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MATERIAL SYMBOL LINK -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <!-- CUSTOM CSS LINK -->
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <!-- JAVASCRIPT LINK -->
+    <script type="module" src="./src/js/app.js"></script>
+  </head>
+  <body>
+    <header class="sidebar" data="sidebar">
+      <div class="wrapper wrapper-1">
+        <a href="/">
+          <img
+            class="logo-light logo"
+            src="./src/images/logo-light.svg"
+            alt="logo-light"
+          />
+          <img
+            class="logo-dark logo"
+            src="./src/images/logo-dark.svg"
+            alt="logo dark"
+          />
+        </a>
+
+        <button
+          class="menu-btn icon-btn large"
+          aria-label="close menu"
+          data-sidebar-toggler
+        >
+          <span class="material-symbols-rounded" aria-hidden="true">Close</span>
+          <div class="state-layer"></div>
+        </button>
+      </div>
+      <button class="fab" data-note-create-btn>
+        <span class="material-symbols-rounded" aria-hidden="true">add</span>
+        <span class="text text-label-large">New note</span>
+        <div class="state-layer"></div>
+      </button>
+
+      <div class="wrapper wrapper-2">
+        <h2 class="text-title-small">NOTEBOOKS</h2>
+        <button class="icon-btn small">
+          <span
+            class="material-symbols-rounded"
+            data-tooltip="Create new notebook"
+            aria-label="Create new notebook"
+            data-add-notebook
+            >add</span
+          >
+          <div class="state-layer"></div>
+        </button>
+      </div>
+    </header>
+  </body>
+</html>
