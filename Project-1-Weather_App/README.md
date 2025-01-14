@@ -12,11 +12,11 @@
 
 **Example:**
 
-![Weather App Screenshot](https://your-image-url.com/weather-app-screenshot.png)
+![Weather App Screenshot](./images/screenshot.png)
 
 Getting Started (Local Development):
 
-Clone the repository: Make sure you have Git installed. Run git clone (https://github.com/hamzaisadev/Java-Script-Projects/Java-Script-Projects/tree/3dd2352bd7d79ce5d656a28d10099f64f532a586/Project-1-Weather_App) (replace with your repository URL).
+Clone the repository: Make sure you have Git installed. Run git clone ([https://github.com/hamzaisadev/Java-Script-Projects/Java-Script-Projects/tree/3dd2352bd7d79ce5d656a28d10099f64f532a586/Project-1-Weather_App](https://github.com/Hamzaisadev/Java-Script-Projects/tree/main/Project-1-Weather_App)) 
 Install dependencies: You may need to install additional libraries for the weather API integration. Check the project documentation (if any) for specific instructions.
 Open index.html in a web browser.
 Replace placeholder API key: In script.js, update the apiKey variable with your own OpenWeatherMap API key. You can obtain a free API key by creating an account on OpenWeatherMap.
